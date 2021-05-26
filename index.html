@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./css/main.css" />
+    </head>
+    <body>
+        <!-- HEADER -->
+        <header>
+            
+        <picture>
+        <!-- smartphone -->
+        <source
+            srcset="
+            ./img/smartphone/banner_phone.jpg 1x,
+            ./img/smartphone/banner_phone@2x.jpg 2x,
+            ./img/smartphone/banner_phone@3x.jpg 3x
+            "
+            media="(min-width:300px) and (max-width:450px) and (orientation: portrait)"
+        />
+
+
+        <!-- escritorio -->
+        <source
+            srcset="
+            ./img/desktop/banner_desktop.jpg 1x,
+            ./img/desktop/banner_desktop@2x.jpg 2x,
+            ./img/desktop/banner_desktop@3x.jpg 3x
+            "
+            media="(min-width:1200px)"
+        />
+
+        <!-- Imagen de respaldo -->
+        <img src="" alt="banner" />
+        </picture>
+
+        <!-- Menu -->
+        <nav class="menu"></nav>
+
+        </header>
+        <!-- MAIN -->
+        <main></main>
+        <!-- FOOTER -->
+        <footer>
+            <h6 class="copy">&copy;Copyright</h6>
+        </footer>
+    </body>
+</html>
